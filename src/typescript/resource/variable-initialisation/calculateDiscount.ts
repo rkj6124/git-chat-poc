@@ -1,5 +1,5 @@
 function calculateDiscount(isMember: boolean): number {
-    var discount;
+    var discount = 0;
 
     if (isMember) {
         discount = 10; // 10% discount for members
