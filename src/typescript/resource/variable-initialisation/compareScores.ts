@@ -1,8 +1,8 @@
 function compareScores() {
-    let playerScore: number = 0;
-   let threshold = 50;
+    let playerScore: number;
+    let threshold = 50;
 
-   const assignScore = Math.random() > 0.5;
+    const assignScore = Math.random() > 0.5;
     if (assignScore) {
         playerScore = 75;
     }
