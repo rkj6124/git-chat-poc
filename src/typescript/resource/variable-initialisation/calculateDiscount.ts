@@ -1,11 +1,11 @@
 function calculateDiscount(isMember: boolean): number {
-    var discount = 0;
+    var discount;
 
-   if (isMember) {
-       discount = 10; // 10% discount for members
-   }
+    if (isMember) {
+        discount = 10; // 10% discount for members
+    }
 
-   const finalPrice = 100 - discount;
+    const finalPrice = 100 - discount;
     return finalPrice;
 }
 
